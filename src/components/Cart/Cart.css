@@ -1,0 +1,36 @@
+.cart-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-title {
+    margin: 0;
+  }
+  
+  .item-price {
+    margin: 0;
+  }
+  
+  .item-quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-quantity label {
+    margin-right: 5px;
+  }
+  
+  .item-quantity input {
+    width: 50px;
+  }
+  
